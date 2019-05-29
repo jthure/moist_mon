@@ -1,0 +1,9 @@
+{application,moist_mon,
+             [{applications,[kernel,stdlib,elixir,logger,runtime_tools,
+                             ring_logger,nerves_runtime,toolshed,
+                             nerves_init_gadget,shoehorn]},
+              {description,"moist_mon"},
+              {modules,['Elixir.MoistMon','Elixir.MoistMon.Application']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.MoistMon.Application',[]}}]}.
